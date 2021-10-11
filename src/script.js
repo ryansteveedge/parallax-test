@@ -40,7 +40,7 @@ gsap.from(".square-1", {
     pin: true,
     pinSpacing: true,
     start: "top top",
-    end: () => "+=" + window.innerHeight,
+     end: () => "+=" + window.innerHeight*(4),
     markers: true,
 
   },
@@ -73,7 +73,7 @@ gsap.from(".square-2", {
     pin: true,
     pinSpacing: true,
     start: "top top",
-    end: () => "+=" + window.innerHeight,
+     end: () => "+=" + window.innerHeight*(4),
     markers: true,
 
   },
