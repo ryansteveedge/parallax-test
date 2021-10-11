@@ -1,0 +1,66 @@
+.top, .bottom{
+   height: 100vh;
+   background-color: purple;
+}
+
+.middle{
+   height: 100vh;
+   background-color: lightblue;
+   position: relative;
+}
+
+.middle-relative{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+}
+
+.middle-inner-new{
+   position: relative;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+.middle-text-container{
+   text-align: center;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+.fixed-text{
+   margin-top: 40px;
+}
+
+.dynamic-text{
+   margin: 0 auto;
+   overflow: hidden;
+   top: 50%;
+   width: 450px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.square-1{
+   position: absolute;
+   top: -160px;
+   left: 0;
+   height: 200px;
+   width: 200px;
+   background-color: green;
+}
+
+.square-2{
+   position: absolute;
+   bottom: -160px;
+   right: 0;
+}
+
+
+.sqaure-inner{
+   height: 200px;
+   width: 200px;
+   background-color: green;
+   margin-bottom: 50px;
+}
