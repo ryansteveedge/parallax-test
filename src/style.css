@@ -48,24 +48,24 @@
   visibility: hidden;
 }
 
-.square-1 {
+.square-1,
+.square-3,
+.square-5 {
   position: absolute;
-  top: -160px;
+  top: -200px;
   left: 0;
   height: 200px;
   width: 200px;
   background-color: green;
 }
 
-.square-2 {
+.square-2,
+.square-4,
+.square-6 {
   position: absolute;
-  bottom: -160px;
+  bottom: -200px;
   right: 0;
-}
-
-.sqaure-inner {
   height: 200px;
   width: 200px;
   background-color: green;
-  margin-bottom: 50px;
 }
